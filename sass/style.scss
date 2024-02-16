@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'D-DIN-Medium';
+    src: url('../fonts/otf/D-DIN-PRO-500-Medium.otf') format("opentype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: block
+}
+
+@font-face {
+    font-family: 'D-DIN-Bold';
+    src: url('../fonts/otf/D-DIN-PRO-700-Bold.otf') format("opentype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: block
+}
+
+@font-face {
+    font-family: 'D-DIN-Regular';
+    src: url('../fonts/otf/D-DIN-PRO-400-Regular.otf') format("opentype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: block
+}
+body::-webkit-scrollbar {
+    width: 10px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: black;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #928c8c;
+    border-radius: 20px;
+}
+@import 'commonElements/variables.scss';
+@import 'commonElements/commonElements.scss';
+@import 'pages/home.scss';
+@import 'pages/falcon9.scss';
+@import 'pages/humanSpace.scss';
