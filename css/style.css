@@ -150,7 +150,8 @@ html {
   color: white;
 }
 .footer a:hover {
-  color: #b9b9b9;
+  transition: 0.5s;
+  color: #979797;
 }
 .footer .copyVictor {
   color: #928c8c;
@@ -280,6 +281,15 @@ html {
     width: auto;
     font-size: 40px;
   }
+}
+.carousel-indicators button {
+  position: relative;
+  height: 8px !important;
+  width: 8px !important;
+  margin: 0 5px !important;
+  border-radius: 100%;
+  background-color: #fff !important;
+  background: #3b3b3b;
 }
 
 /*# sourceMappingURL=style.css.map */

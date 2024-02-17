@@ -94,6 +94,7 @@ html {
         text-decoration: none;
         color: white;
         &:hover{
+            transition: .5s;
             color: $link-hover;
         }
     }
