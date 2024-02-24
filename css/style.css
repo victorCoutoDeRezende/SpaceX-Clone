@@ -154,7 +154,7 @@ html {
   color: #979797;
 }
 .footer .copyVictor {
-  color: #928c8c;
+  color: #919191;
 }
 
 @media (max-width: 980px) {
@@ -290,6 +290,162 @@ html {
   border-radius: 100%;
   background-color: #fff !important;
   background: #3b3b3b;
+}
+
+.container00.container06 {
+  background-image: url(../../img/falcon9/01.jpg);
+}
+.container00.container07 {
+  background-image: url(../../img/falcon9/02.jpg);
+}
+.container00.carousel01 {
+  background-image: url(../../img/falcon9/03.jpg);
+}
+.container00.carousel02 {
+  background-image: url(../../img/falcon9/04.jpg);
+}
+.container00.carousel03 {
+  background-image: url(../../img/falcon9/05.jpg);
+}
+.container00.carousel04 {
+  background-image: url(../../img/falcon9/06.jpg);
+}
+.container00.carousel05 {
+  background-image: url(../../img/falcon9/07.jpg);
+}
+.container00.container08 {
+  background-image: url(../../img/falcon9/08.jpg);
+}
+.container00.container09 {
+  background-image: url(../../img/falcon9/09.jpg);
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40vh;
+}
+
+.titleFalcon9 {
+  padding-top: 8%;
+  font-size: 100px;
+  font-family: "D-DIN-Bold";
+}
+
+.subTitleFalcon {
+  font-family: "D-DIN-Regular";
+  font-size: 16px;
+}
+
+.numbers {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.numbers .titleNum {
+  font-family: "D-DIN-Regular";
+  font-size: 90px;
+}
+.numbers .subTitleNum {
+  font-family: "D-DIN-Regular";
+  font-size: 20px;
+}
+
+.falcon9Desc {
+  font-family: "D-DIN-Regular";
+  font-size: 22px;
+  width: 640px;
+  line-height: 50px;
+}
+
+.containerFalcon9Desc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+#overviewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+.carouselSlide img {
+  height: 100vh;
+}
+
+.carouselText {
+  background-color: black;
+}
+
+.downloadDesc {
+  background-color: black;
+  height: 87vh;
+  padding-top: 320px;
+  font-size: 14px;
+}
+.downloadDesc p {
+  color: #919191;
+  font-family: "D-DIN-Regular";
+}
+.downloadDesc a {
+  text-decoration: none;
+  color: white;
+  font-family: "D-DIN-Regular";
+  margin: 10px;
+}
+.downloadDesc a:hover {
+  color: #979797;
+  transition: 0.5s;
+}
+
+/* MEDIA QUERIES
+====================================================================================================================== */
+@media (max-width: 768px) {
+  .numbers .titleNum {
+    font-family: "D-DIN-Regular";
+    font-size: 80px;
+  }
+  .numbers .subTitleNum {
+    font-family: "D-DIN-Regular";
+    font-size: 18px;
+  }
+  .falcon9Desc {
+    width: auto;
+  }
+  #overviewPosition {
+    padding-top: 35%;
+  }
+}
+@media (max-width: 585px) {
+  .numbers {
+    height: 60vh;
+  }
+  #overviewPosition {
+    width: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 460px) {
+  .downloadDesc {
+    padding-top: 160px;
+  }
+  .downloadDesc a {
+    margin: 10px 0;
+  }
+}
+@media (max-width: 375px) {
+  .titleFalcon9 {
+    font-size: 50px;
+  }
+  .falcon9Desc {
+    line-height: auto;
+    font-size: 18px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
